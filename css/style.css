@@ -15,12 +15,9 @@ p,h1,h2,fieldset {
   margin: 20px 10px;
   text-align: left;
 }
-li {
+ul, li{
   margin-left: 20px;
-  }
-ul li {
-  margin-left: 0px;
-}  
+}
 header {
     position:/*fixed*/; 
 }
