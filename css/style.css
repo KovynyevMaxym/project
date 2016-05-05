@@ -17,6 +17,7 @@ p,h1,h2,fieldset {
 }
 ul, li{
   margin-left: 20px;
+  padding: 5px;
 }
 header {
     position:/*fixed*/; 
