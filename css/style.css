@@ -8,7 +8,9 @@ article {
     margin: 0 auto;
     padding: 0 auto;
 }
-
+p,h2 {
+  font-size: medium;
+}
 p,h1,h2,fieldset {
   margin: 20px 10px;
   text-align: left;
