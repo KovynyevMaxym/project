@@ -7,7 +7,7 @@ $(function() {
             dataType: "json"
         })
         .done(function () {
-            $('#container').html('<h1>Thank you!</h1>');
+            $('#container').html('<h2>Thank you! We call you as long as we can.</h2>');
         })
         .fail(function (jqXHR, textStatus) {
             $('#container').html('<h1>Error!</h1><br>'+textStatus);
