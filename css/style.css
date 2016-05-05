@@ -25,15 +25,13 @@ div#header {
     display: inline; 
 }
 
-article {
-  max-width: 800px;
-}
 fieldset {
   width: 30%;
 }
 .buttons {
   list-style: none;
   margin: 0 auto;
+  padding: 0 auto;
   background: deepskyblue;
   display: -webkit-box;
   display: -ms-flexbox;
