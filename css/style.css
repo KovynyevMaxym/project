@@ -2,12 +2,13 @@ body {
     max-width:1200px;
     margin: 0 auto;
     padding: 0 auto;
-    background-color: lightgreen;
+    background-color:  lightyellow;
 }
 article {
     max-width:1200px;
     margin: 0 auto;
     padding: 0 auto;
+    background-color: lightgreen;
 }
 p,h2 {
   font-size: medium;
@@ -20,8 +21,8 @@ ul, li{
   margin-left: 20px;
   padding: 5px;
 }
-header {
-    position:/*fixed*/; 
+div#header {
+    display: inline; 
 }
 
 article {
