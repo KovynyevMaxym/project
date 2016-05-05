@@ -1,0 +1,102 @@
+body {
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+article {
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+p,h1,h2,fieldset {
+  margin: 20px 10px;
+  text-align: left;
+}
+header {
+    position:/*fixed*/; 
+}
+
+article {
+  max-width: 800px;
+}
+fieldset {
+  width: 30%;
+}
+.buttons {
+  list-style: none;
+  margin: 0 auto;
+  background: deepskyblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  color: white;
+}
+
+.buttons a:hover {
+  background: #00b7f5;
+  font-size: 1em;
+  font-weight: bold;
+  
+}
+img {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+div#string {
+  height: 4px;
+  background-color: deepskyblue; 
+  
+}
+
+@media all and (max-width: 1200px) {
+  .buttons {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+  }
+}
+@media all and (max-width: 800px) {
+  .buttons {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+  }
+}
+@media all and (max-width: 460px) {
+  p,h1,h2,fieldset {
+  margin: 5px 5px;
+}
+  
+  .buttons {
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+    padding: 0px;
+    
+  }
+  .buttons a {
+    text-align: center;
+    padding: 1px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  img {
+    display: none;
+  }
+
+  .buttons div:last-of-type a {
+    border-bottom: none;
+  }
+}
