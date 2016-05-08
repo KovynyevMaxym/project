@@ -6,9 +6,24 @@ body {
 }
 article {
     max-width:800px;
+    width: 80%;
     margin: 0 auto;
     padding: 0 auto;
     background-color: white;
+}
+section, aside {
+  display: block;
+}
+aside {
+  background-color: yellow;
+  display: inline;
+  width: 20%;
+  max-width: 200px;
+}
+.partners {
+  height: 50%;
+  width: auto;
+  
 }
 p,h2 {
   font-size: medium;
