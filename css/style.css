@@ -43,6 +43,12 @@ ul, li{
     padding: 0px;
     /*border: 1px solid black*/}
     
+#foto_kovynyev {
+  float: right;
+  width: 30%;
+  max-width: 130px;
+  height: auto; 
+}
 fieldset {
   width: 30%;
 }
@@ -125,7 +131,13 @@ div#string {
     height: auto;
     padding: 0px;
   }
-
+#foto_kovynyev {
+  float: right; 
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  padding: 0px; 
+}
   .buttons div:last-of-type a {
     border-bottom: none;
   }
