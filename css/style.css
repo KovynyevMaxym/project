@@ -15,6 +15,7 @@ p,h2 {
 }
 p,h1,h2,fieldset {
   margin: 20px 10px;
+  padding: 10px 10px;
   text-align: left;
 }
 ul, li{
@@ -22,7 +23,7 @@ ul, li{
   padding: 5px;
 }
 div#header {
-    display: inline; 
+    display: block; 
 }
 
 fieldset {
