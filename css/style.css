@@ -2,13 +2,15 @@ body {
     max-width:1200px;
     margin: 0 auto;
     padding: 0 auto;
-    background-color:  lightyellow;
+    background-color: white;
 }
 article {
     max-width:1200px;
     margin: 0 auto;
     padding: 0 auto;
-    background-color: #B6FFB6;
+    background-color: white;
+    border
+    border: 10px black;
 }
 p,h2 {
   font-size: medium;
@@ -24,6 +26,9 @@ ul, li{
 }
 #header {
     float: right; 
+    width: 170px;
+    height: 120px'
+    padding: 10px;
 }
 
 fieldset {
