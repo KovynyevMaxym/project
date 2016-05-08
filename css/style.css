@@ -22,8 +22,8 @@ ul, li{
   margin-left: 20px;
   padding: 5px;
 }
-div#header {
-    display: block; 
+#header {
+    float: right; 
 }
 
 fieldset {
