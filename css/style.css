@@ -34,17 +34,17 @@ img {
 }
 .article_img:hover {
     float: right; 
-    width: 70%;
+    width: 100%;
     height: auto;
     padding: 0px;
-    /*border: 1px solid black*/}
-    
-.article_img:active {
+    /*border: 1px solid black*/
+}
+/*.article_img:active {
     float: right; 
     width: 30%;
     height: auto;
     padding: 0px;
-    /*border: 1px solid black*/}
+    border: 1px solid black*/}
     
 #foto_kovynyev {
   float: right;
@@ -93,7 +93,6 @@ fieldset {
 div#string {
   height: 4px;
   background-color: deepskyblue; 
-  
 }
 
 @media all and (max-width: 1200px) {
@@ -133,10 +132,9 @@ div#string {
   }
   img.article_img {
     float: right; 
-    width: 100%;
+    width: 90%;
     height: auto;
-    padding: 10px;
-  }
+}
 #foto_kovynyev {
   float: right;
   width: 100%;
