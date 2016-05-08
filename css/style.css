@@ -49,6 +49,11 @@ ul, li{
   max-width: 130px;
   height: auto; 
 }
+#contact_us {
+    justify-content: flex-start;
+    display: inline;
+}
+
 fieldset {
   width: 30%;
 }
@@ -129,14 +134,13 @@ div#string {
     float: left; 
     width: 100%;
     height: auto;
-    padding: 0px;
+    padding: 10px;
   }
 #foto_kovynyev {
-  float: right; 
   width: 100%;
   max-width: 500px;
   height: auto;
-  padding: 0px; 
+  
 }
   .buttons div:last-of-type a {
     border-bottom: none;
