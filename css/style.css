@@ -22,14 +22,20 @@ ul, li{
   margin-left: 20px;
   padding: 5px;
 }
-#header {
+.article_img {
     float: right; 
     width: 30%;
     height: auto;
     padding: 5px;
     /*border: 1px solid black*/
 }
-
+.article_img:hover {
+    float: right; 
+    width: 90%;
+    height: auto;
+    padding: 5px;
+    /*border: 1px solid black*/}
+    
 fieldset {
   width: 30%;
 }
@@ -58,7 +64,7 @@ fieldset {
   font-weight: bold;
   
 }
-img {
+#header {
     height: 100px;
     width: 100%;
     overflow: hidden;
@@ -103,8 +109,14 @@ div#string {
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
-  img {
+  #header {
     display: none;
+  }
+  img.article_img {
+    float: left; 
+    width: 100%;
+    height: auto;
+    padding: 0px;
   }
 
   .buttons div:last-of-type a {
