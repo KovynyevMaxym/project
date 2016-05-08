@@ -27,7 +27,7 @@ img {
 }
 .article_img {
     float: right; 
-    width: 30%;
+    width: 40%;
     height: auto;
     padding: 5px;
     /*border: 1px solid black*/
@@ -39,9 +39,9 @@ img {
     padding: 0px;
     /*border: 1px solid black*/
 }
-/*.article_img:active {
+.article_img:active {
     float: right; 
-    width: 30%;
+    width: 40%;
     height: auto;
     padding: 0px;
     border: 1px solid black*/}
@@ -132,7 +132,7 @@ div#string {
   }
   img.article_img {
     float: right; 
-    width: 90%;
+    width: 100%;
     height: auto;
 }
 #foto_kovynyev {
