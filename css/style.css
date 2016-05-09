@@ -1,7 +1,7 @@
 body {
     max-width:1200px;
-    margin: 0 auto;
-    padding: 0 auto;
+    margin: 0px auto;
+    padding: 0px;
     background-color: white;
 }
 /*section {
@@ -78,7 +78,7 @@ img.article_img {
 .buttons {
   list-style: none;
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0px;
   background: deepskyblue;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,13 +105,13 @@ img.article_img {
     width: 100%;
     overflow: hidden;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0px;
 }
 div#string {
   height: 4px;
   background-color: deepskyblue; 
   margin: 0 auto;
-  padding: 0 auto;
+  padding: 0px;
 }
 img.logo {
   padding: 0px;
@@ -140,7 +140,7 @@ div.partners:hover{
 }
 div.adress, div.partners{
   display: inline-block;
-  padding: 10px auto;
+  padding: 10px 0px;
   margin: 10px auto;
 }
 
