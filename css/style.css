@@ -4,9 +4,10 @@ body {
     padding: 0 auto;
     background-color: white;
 }
+
 article {
-    width: 100%;
-    background-color: white;
+    max-width: 700px;
+    margin: 0px auto;
 }
 p,h2 {
   font-size: medium;
