@@ -6,17 +6,17 @@ body {
 }
 article {
     max-width: 700px;
-    margin: 0px auto;
+    margin: 30px auto;
     background-color: white;
     
 }
 article:hover {
     max-width: 700px;
-    margin: 10px auto 10px auto;
+    margin: 20px auto 30px auto;
     background-color: white;
     border: 2px solid grey;
-    box-shadow: 1px 0.5px 5px 1px grey;
-    transition-duration: 0.5s;
+    box-shadow: 15px 15px 1px 1px rgba(127, 132, 126, 0.7);
+    transition-duration: 0.3s;
 }
 p,h2 {
   font-size: medium;
@@ -121,10 +121,9 @@ div.partners:hover{
   width: 100px;
   height: auto;
   border-style: outset;
-  /*border-color: deepskyblue;*/
   border-radius: 5px;
-  border: 2px solid deepskyblue;
-  box-shadow: 1px 0.5px 5px 1px grey;
+  box-shadow: 3px 3px 1px 1px rgba(127, 132, 126, 0.7);
+  transition-duration: 0.3s;
   
 }
 div.adress, div.partners{
@@ -148,6 +147,7 @@ footer div p  {
         -ms-flex-pack: distribute;
             justify-content: space-around;
   }
+  
 }
 @media all and (max-width: 800px) {
   .buttons {
@@ -159,8 +159,37 @@ footer div p  {
   padding: 0px 0px 0px 10px;
   margin: 0px;
 }
+article {
+    max-width: 700px;
+    margin: 20px auto;
+    background-color: white;
+    
+}
+article:hover {
+    max-width: 700px;
+    margin: 10px auto 20px auto;
+    background-color: white;
+    border: 2px solid grey;
+    box-shadow: 7px 7px 1px 1px rgba(127, 132, 126, 0.7);
+    transition-duration: 0.3s;
+}  
 }
 @media all and (max-width: 460px) {
+ 
+ article {
+    max-width: 700px;
+    margin: 10px auto;
+    background-color: white;
+    
+}
+article:hover {
+    max-width: 700px;
+    margin: 5px auto 10px auto;
+    background-color: white;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 0.5px 0.5px rgba(127, 132, 126, 0.7);
+    transition-duration: 0.3s;
+}  
   p,h1,h2,fieldset {
   margin: 5px 5px;
 }
