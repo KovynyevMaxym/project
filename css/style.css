@@ -94,18 +94,32 @@ div#string {
   margin: 0 auto;
   padding: 0 auto;
 }
-#string2 {
-  display: none;
-}
-.partners {
-  float: right;
-  padding: 5px;
+img.logo {
+  padding: 0px;
+  margin: 0px;
   max-height: 50px;
   width: auto;
 }
-.adress {
-  padding: 0px auto;
-  margin: 0px auto;
+div.partners{
+  text-align: center;
+  width: 100px;
+  height: auto;
+  border-style: outset;
+  
+}
+div.adress, div.partners{
+  display: inline-block;
+  padding: 10px auto;
+  margin: 10px auto;
+}
+
+footer div.partners{
+  float: none;
+}
+
+footer div p  {
+  padding: 0px 100px 0px 10px;
+  margin: 0px;
 }
 
 @media all and (max-width: 1200px) {
@@ -148,18 +162,20 @@ div#string {
     width: 100%;
     height: auto;
 }
-img.partners {
-    float: right; 
-    width: 100%;
-    height: auto;
+footer div p  {
+  padding: 0px 0px 0px 10px;
+  margin: 0px;
 }
-#string2 {
-  display: inline-block
-  color: blue;
-  background-color: deepskyblue; 
-  margin: 0 auto;
-  padding: 0 auto;
+p,h1,h2,fieldset {
+  margin: 5px 5px;
+  padding: 0px 5px;
+  text-align: left;
 }
+ul, li{
+  margin-left: 1px;
+  padding: 1px;
+}
+
 .buttons div:last-of-type a {
     border-bottom: none;
   }
