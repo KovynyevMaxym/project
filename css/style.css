@@ -94,13 +94,16 @@ div#string {
   margin: 0 auto;
   padding: 0 auto;
 }
+#string2 {
+  display: none;
+}
 .partners {
   float: right;
   padding: 5px;
   max-height: 50px;
   width: auto;
 }
-#adress {
+.adress {
   padding: 0px auto;
   margin: 0px auto;
 }
@@ -145,10 +148,17 @@ div#string {
     width: 100%;
     height: auto;
 }
-#foto_kovynyev {
-  float: right;
-  width: 100%;
-  height: auto;
+img.partners {
+    float: right; 
+    width: 100%;
+    height: auto;
+}
+#string2 {
+  display: inline-block
+  color: blue;
+  background-color: deepskyblue; 
+  margin: 0 auto;
+  padding: 0 auto;
 }
 .buttons div:last-of-type a {
     border-bottom: none;
