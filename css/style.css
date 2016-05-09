@@ -4,10 +4,10 @@ body {
     padding: 0 auto;
     background-color: white;
 }
-section {
+/*section {
   height: 400px;
   overflow-y: auto;
-}
+}*/
 article {
     max-width: 700px;
     margin: 30px auto;
@@ -21,6 +21,9 @@ article:hover {
     border: 2px solid grey;
     box-shadow: 15px 15px 1px 1px rgba(127, 132, 126, 0.7);
     transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0s;
 }
 p,h2 {
   font-size: medium;
@@ -37,11 +40,11 @@ ul, li{
 img {
   padding: 0px;
 }
-.article_img {
+img.article_img {
     float: right; 
     width: 40%;
     height: auto;
-    padding: 5px;
+    padding: 0px;
     /*border: 1px solid black*/
 }
 .article_img:hover {
@@ -57,7 +60,7 @@ img {
     width: 40%;
     height: auto;
     padding: 0px;
-    transition-delay: 1s
+    transition-duration: 0s;
 }
     
 #foto_kovynyev {
@@ -130,6 +133,9 @@ div.partners:hover{
   border-radius: 5px;
   box-shadow: 3px 3px 1px 1px rgba(127, 132, 126, 0.7);
   transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
   
 }
 div.adress, div.partners{
@@ -196,7 +202,7 @@ article:hover {
     box-shadow: 2px 2px 0.5px 0.5px rgba(127, 132, 126, 0.7);
     transition-duration: 0.3s;
 }  
-  p,h1,h2,fieldset {
+  p,h1,h2,#container {
   margin: 5px 5px;
 }
   
@@ -213,27 +219,27 @@ article:hover {
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }
-  #header {
+#header {
     display: none;
   }
-  img.article_img {
+img.article_img {
     float: right; 
     width: 100%;
     height: auto;
-}
+ }
 footer div p  {
   padding: 0px 0px 0px 10px;
   margin: 0px;
-}
+ }
 p,h1,h2,fieldset {
   margin: 5px 5px;
   padding: 0px 5px;
   text-align: left;
-}
+ }
 ul, li{
   margin-left: 1px;
   padding: 1px;
-}
+ }
 
 .buttons div:last-of-type a {
     border-bottom: none;
