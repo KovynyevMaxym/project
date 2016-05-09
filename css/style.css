@@ -12,8 +12,9 @@ article {
 }
 article:hover {
     max-width: 700px;
-    margin: 0px auto;
+    margin: 10px auto 0px auto;
     background-color: white;
+    border: 2px solid grey;
     box-shadow: 1px 0.5px 5px 1px grey;
 }
 p,h2 {
