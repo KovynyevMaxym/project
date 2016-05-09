@@ -105,6 +105,7 @@ div.partners{
   width: 100px;
   height: auto;
   border-style: outset;
+  target: _blank;
   
 }
 div.adress, div.partners{
