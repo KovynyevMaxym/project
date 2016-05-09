@@ -7,13 +7,21 @@ body {
 article {
     max-width: 700px;
     margin: 0px auto;
+    background-color: white;
+    
+}
+article:hover {
+    max-width: 700px;
+    margin: 0px auto;
+    background-color: white;
+    box-shadow: 1px 0.5px 5px 1px grey;
 }
 p,h2 {
   font-size: medium;
 }
 p,h1,h2,fieldset {
   margin: 20px 10px;
-  padding: 0px 10px;
+  padding: 5px 10px;
   text-align: left;
 }
 ul, li{
@@ -54,7 +62,11 @@ img {
   max-width: 600px;
 }
 fieldset {
-  width: 30%;
+  width: 40%;
+  
+}
+  form {
+  padding: 10px auto;
 }
 .buttons {
   list-style: none;
@@ -104,9 +116,15 @@ div.partners{
   text-align: center;
   width: 100px;
   height: auto;
-  border-style: outset;
-  target: _blank;
   
+}
+div.partners:hover{
+  text-align: center;
+  width: 100px;
+  height: auto;
+  border-style: outset;
+  border-color: deepskyblue;
+  border-radius: 5px;
 }
 div.adress, div.partners{
   display: inline-block;
