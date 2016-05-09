@@ -5,25 +5,8 @@ body {
     background-color: white;
 }
 article {
-    max-width:800px;
-    width: 80%;
-    margin: 0 auto;
-    padding: 0 auto;
+    width: 100%;
     background-color: white;
-}
-section, aside {
-  display: block;
-}
-aside {
-  background-color: yellow;
-  display: inline;
-  width: 20%;
-  max-width: 200px;
-}
-.partners {
-  height: 50%;
-  width: auto;
-  
 }
 p,h2 {
   font-size: medium;
@@ -59,7 +42,7 @@ img {
     width: 40%;
     height: auto;
     padding: 0px;
-    border: 1px solid black*/}
+}
     
 #foto_kovynyev {
   float: right;
@@ -108,6 +91,12 @@ fieldset {
 div#string {
   height: 4px;
   background-color: deepskyblue; 
+}
+.partners {
+  float: right;
+  margin: 5px;
+  max-height: 50px;
+  width: auto;
 }
 
 @media all and (max-width: 1200px) {
