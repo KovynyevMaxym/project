@@ -91,12 +91,18 @@ fieldset {
 div#string {
   height: 4px;
   background-color: deepskyblue; 
+  margin: 0 auto;
+  padding: 0 auto;
 }
 .partners {
   float: right;
-  margin: 5px;
+  padding: 5px;
   max-height: 50px;
   width: auto;
+}
+#adress {
+  padding: 0px auto;
+  margin: 0px auto;
 }
 
 @media all and (max-width: 1200px) {
