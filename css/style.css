@@ -4,6 +4,10 @@ body {
     padding: 0 auto;
     background-color: white;
 }
+section {
+  height: 400px;
+  overflow-y: auto;
+}
 article {
     max-width: 700px;
     margin: 30px auto;
@@ -53,7 +57,7 @@ img {
     width: 40%;
     height: auto;
     padding: 0px;
-    
+    transition-delay: 1s
 }
     
 #foto_kovynyev {
