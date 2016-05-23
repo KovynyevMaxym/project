@@ -1,22 +1,68 @@
+* {
+  margin: 0px auto;
+  padding: 0px;
+}
 body {
     max-width:1200px;
     margin: 0px auto;
     padding: 0px;
     background-color: white;
+    display: block;
 }
+header {
+  position: fixed;
+  max-width:1200px;
+  margin: 0px auto;
+  padding: 0px;
+ }
+#header {
+    height: 150px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+}
+.buttons {
+  list-style: none;
+  margin: -4px auto;
+  padding: 0px;
+  background: deepskyblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  color: white;
+}
+
+.buttons a:hover {
+  background: #00b7f5;
+  font-size: 1em;
+  font-weight: bold;
+  
+}
+section {
+  margin-top: 0px;
+  
+}
+
 /*section {
   height: 400px;
   overflow-y: auto;
 }*/
 article {
     max-width: 700px;
-    margin: 30px auto;
+    margin: 50px auto 30px auto;
     background-color: white;
-    
 }
 article:hover {
     max-width: 700px;
-    margin: 20px auto 30px auto;
+    margin: 50px auto 30px auto;
     background-color: white;
     border: 2px solid grey;
     box-shadow: 15px 15px 1px 1px rgba(127, 132, 126, 0.7);
@@ -75,38 +121,8 @@ img.article_img {
 #container {
   max-width: 600px;
 }
-.buttons {
-  list-style: none;
-  margin: 0 auto;
-  padding: 0px;
-  background: deepskyblue;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  justify-content: space-around;
-}
 
-.buttons a {
-  text-decoration: none;
-  display: block;
-  padding: 15px;
-  color: white;
-}
 
-.buttons a:hover {
-  background: #00b7f5;
-  font-size: 1em;
-  font-weight: bold;
-  
-}
-#header {
-    height: 100px;
-    width: 100%;
-    overflow: hidden;
-    margin: 0 auto;
-    padding: 0px;
-}
 div#string {
   height: 4px;
   background-color: deepskyblue; 
@@ -166,6 +182,7 @@ footer div p  {
     -webkit-justify-content: space-around;
         -ms-flex-pack: distribute;
             justify-content: space-around;
+           
   }
 footer div p  {
   padding: 0px 0px 0px 10px;
@@ -209,8 +226,9 @@ article:hover {
   .buttons {
     -webkit-flex-flow: column wrap;
     -ms-flex-flow: column wrap;
-        flex-flow: column wrap;
+        flex-flow: colomn wrap;
     padding: 0px;
+    margin: 0px auto;
     
   }
   .buttons a {
@@ -243,5 +261,12 @@ ul, li{
 
 .buttons div:last-of-type a {
     border-bottom: none;
+  }
+  .buttons {
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+        flex-flow: column wrap;
+    padding: 0px;
+    margin: 0px auto;
   }
 }
