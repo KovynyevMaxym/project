@@ -10,7 +10,7 @@ body {
     display: block;
 }
 header {
-  position: fixed;
+  /*position: fixed;*/
   max-width:1200px;
   margin: 0px auto;
   padding: 0px;
