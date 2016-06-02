@@ -152,6 +152,8 @@ div.partners:hover{
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
+  padding: 5px 0px;
+  margin: 5px auto;
   
 }
 div.adress, div.partners{
